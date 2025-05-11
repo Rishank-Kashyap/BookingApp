@@ -10,6 +10,6 @@ activityRoute.route("/add").post(addActivity);
 
 activityRoute.route("/book").post(userAuth, bookActivity);
 
-activityRoute.route("/my-bookings").get(userAuth, getMyBookings);
+activityRoute.route("/bookings").get(userAuth, getMyBookings);
 
 export default activityRoute;
